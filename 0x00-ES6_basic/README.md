@@ -24,7 +24,7 @@ export function taskNext() {
 } 
 ```
 + [x] 1. ***Block Scope*** </br>[1-blocked-scoped.js](1-blocked-scoped.js) contains a script that meets the following requirements.
-+ For the code below, modify the variables inside the function `taskBlock` so that the variables aren;t overwritten inside the conditional block.
++ For the code below, modify the variables inside the function `taskBlock` so that the variables aren't overwritten inside the conditional block.
 ```js
 export default function taskBlock(trueOrFalse) {
     var task = false;
