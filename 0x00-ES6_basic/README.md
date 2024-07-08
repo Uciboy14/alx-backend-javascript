@@ -6,7 +6,8 @@ The project contains tasks for learning the basics of ECMAScript 2015 (ES6).
 - For the code below, make the following modifications:
     * function `taskFirst` to instantiate variables using `const`.
     * function `taskNext` to instantiate variables using `let`.
-``` export function taskFirst() {
+``` 
+export function taskFirst() {
     var task = 'I prefer const when i can.';
     return task;
 }
@@ -21,6 +22,7 @@ export function taskNext() {
 
     return combination;
 } 
+```
 
 
 
