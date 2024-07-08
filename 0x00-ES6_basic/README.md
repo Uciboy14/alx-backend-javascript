@@ -35,9 +35,6 @@ export default function taskBlock(trueOrFalse) {
         var task2 = false;
     }
 
-    retur [task, task2];
+    return [task, task2];
 }
-
-
-
-
+```
