@@ -38,3 +38,18 @@ export default function taskBlock(trueOrFalse) {
     return [task, task2];
 }
 ```
+
++ [x] 2. ***Arrow functions*** </br>[2-arrow.js](2-arrow.js) cotains a script that meets the following requirements.
++ For the code below, rewrite the standard function to use ES6's arrow syntax of the function add (it will be an anonymous function after).
+```js
+export default function getNeighborhoodsList() {
+    this.sanFransicoNeighborhoods = ['SOMA', 'Union Square'];
+
+    const self = this;
+    this.addNeighborhood = function add(newNeighborhood) {
+        self.sanFransicoNeighborhoods.push(newNeighborhood);
+        return self.sanFransicoNeighborhoods;
+    };
+
+}
+```
