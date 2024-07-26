@@ -8,5 +8,5 @@ process.stdin.on('readable', function() {
 });
 
 process.stdin.on('end', function() {
-    process.stdout.write('end');
+    process.stdout.write('This important software is now closing');
 });
